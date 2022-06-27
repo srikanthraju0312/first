@@ -9,21 +9,17 @@
                 "description": "This is vnet parameter"
             }
         },
-{
             "subnet1": {
                 "type": "string",
                 "defaultValue": "[parameters('subnet1')]",
                 "metadata": {
                     "description": "description"
                 }
-            }
-        },
-        {
+            },
             "subnet2": {
             "type": "string",
             "defaultValue": "[parameters('subnet2')]"
             }
-        }
     },
     "functions": [],
     "variables": {},
